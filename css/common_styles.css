@@ -1,0 +1,16 @@
+body {
+  background-color: rgba(0, 247, 255, 0.5);
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  background-color: black;
+  color: gold;
+  border: 2px solid white;
+}
+
+button {
+  color: white;
+  background-color: green;
+}
