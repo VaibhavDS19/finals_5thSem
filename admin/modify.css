@@ -1,0 +1,35 @@
+button {
+  color: #ffffff;
+  width: 100%;
+  background-color: green;
+}
+
+p {
+  width: 100%;
+  text-align: center;
+  background-color: darkblue;
+  color: wheat;
+  padding:3%;
+}
+
+.panel-body {
+  margin: 15%;
+  border: 5px solid black;
+  background-color: gold;
+}
+
+#password_change {
+  display: none;
+}
+
+#deletes {
+  display: none;
+}
+
+#btn1,
+#btn2 {
+  color: #ffffff;
+  background-color: rgb(8, 56, 56);
+  border: 2px solid rgb(0, 0, 0);
+  width: 49%;
+}

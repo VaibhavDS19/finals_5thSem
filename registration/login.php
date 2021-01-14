@@ -6,8 +6,10 @@ if (isset($_SESSION["loggedin"])) {
     exit;
 }
 
-$student_reg_id = $_SESSION['student_reg_id'];
-echo '<script> alert("Your student_id might be '.$student_reg_id.'") </script>';
+if (isset($_SESSION['student_reg_id'])) {
+    $student_reg_id = $_SESSION['student_reg_id'];
+    echo '<script> alert("Your student_id might be ' . $student_reg_id . '") </script>';
+}
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $student_id = $_POST["student_id"];
